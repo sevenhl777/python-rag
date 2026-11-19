@@ -10,3 +10,6 @@ __pycache__/
 # 临时文件
 temp.pdf
 *.tmp
+
+# chroma数据库
+chroma/

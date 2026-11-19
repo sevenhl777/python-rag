@@ -1,6 +1,8 @@
 from pypdf import PdfReader
 from docx import Document
 
+# todo：解析产出Document列表，带metadata可查页码、来源文件
+
 def parser(content: bytes, filetype: str) -> str:
     text = ""
     if filetype == "pdf":
