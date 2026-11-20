@@ -13,3 +13,6 @@ temp.pdf
 
 # chroma数据库
 chroma/
+
+# 环境变量
+.env
